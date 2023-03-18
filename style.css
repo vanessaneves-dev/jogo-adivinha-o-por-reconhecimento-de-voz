@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+:root {
+  --font-family: 'Lobster Two', cursive;
+  --primary-color: #F5EBEB ;
+  --bg-color: #D5B4B4;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.mensagem {
+  font-size: 1.5rem;
+}
+
+.box {
+  max-height: 100% ;
+  max-width: 100% ;
+  border: 10px double var(--primary-color);
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 4rem;
+  padding: 10px;
+  margin-top: 20px;
+}
+.dica {
+  margin-top: 20px;   
+}
+
+.btn-jogar {
+  padding: 8px 16px;
+  border: 10px double var(--primary-color);
+  font-size: 3rem;
+  border-radius: 6px;
+
+}
+
+.btn-jogar:hover {
+  border: 10px double var(--bg-color);
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  cursor: pointer;
+
+}
